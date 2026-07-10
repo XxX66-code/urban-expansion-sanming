@@ -1,0 +1,25 @@
+# Google Earth Engine Python API
+earthengine-api>=0.1.400
+
+# geemap - GEE 可视化库
+geemap>=0.32.0
+
+# 栅格数据处理
+rasterio>=1.3.0
+
+# 数值计算
+numpy>=1.24.0
+
+# 数据分析
+pandas>=1.5.0
+
+# 可视化
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# 图像处理（合成 GIF）
+Pillow>=9.0.0
+
+# Jupyter（如果用 Notebook）
+jupyter>=1.0.0
+ipywidgets>=8.0.0

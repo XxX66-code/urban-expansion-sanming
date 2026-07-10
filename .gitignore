@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Google Earth Engine
+.ee_token/
+
+# Output files (generated at runtime)
+outputs/maps/*
+outputs/charts/*
+outputs/stats/*
+!outputs/maps/.gitkeep
+!outputs/charts/.gitkeep
+!outputs/stats/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter notebook outputs (optional: keep outputs clean)
+# notebooks/*.ipynb checkpoint files are already ignored above
